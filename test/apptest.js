@@ -9,6 +9,10 @@ describe('testing if browser opens', () => {
     it('test2', () => {
         assert.equal(app(), 'hello', '== coerces values to strings');
     });
+
+    it('test3', () => {
+        assert.equal('isha', 'hello', '== coerces values to strings');
+    });
     
 });
 //console.log(index());
