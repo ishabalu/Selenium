@@ -1,0 +1,121 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-04-05T13:16:01.317Z",
+    "end": "2021-04-05T13:16:01.333Z",
+    "duration": 16,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0befc341-aba9-4220-b701-2f0cac9f787c",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "058c3417-12f5-4a00-a430-e1ef53cface4",
+          "title": "testing if browser opens",
+          "fullFile": "C:\\Selenium\\tests\\test\\apptest.js",
+          "file": "\\test\\apptest.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test1",
+              "fullTitle": "testing if browser opens test1",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//    \nassert.equal(3, 3, '== coerces values to strings');",
+              "err": {},
+              "uuid": "b413cb0d-867f-4af8-96dd-1a550b1661bb",
+              "parentUUID": "058c3417-12f5-4a00-a430-e1ef53cface4",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test2",
+              "fullTitle": "testing if browser opens test2",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.equal(app(), 'hello', '== coerces values to strings');",
+              "err": {},
+              "uuid": "471fc871-8795-4654-b937-a9aaa131b53e",
+              "parentUUID": "058c3417-12f5-4a00-a430-e1ef53cface4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b413cb0d-867f-4af8-96dd-1a550b1661bb",
+            "471fc871-8795-4654-b937-a9aaa131b53e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.3.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "autoOpen": "true"
+      },
+      "version": "5.2.0"
+    }
+  }
+}
